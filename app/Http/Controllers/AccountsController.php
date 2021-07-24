@@ -36,6 +36,27 @@ class AccountsController extends Controller
     public function store(Request $request)
     {
         //
+        $data = $request->all();
+        $user_uthenticade = Auth::user();
+
+        $account = new Accounts;
+
+        $account->name = $data['name'] ;
+        $account->bank = $data['bank'] ;
+        $account->number = $data['number'] ;
+        $account->country = $data['country'] ;
+        $account->id_card = $data['id_card'] ;
+        $account->id_user = $user_uthenticade->id;
+
+        $account->save();
+
+        if($account->save()){
+            /* envio de correo o algo así */
+            return response()->json(['message' => 'Guardado Exitosamente'], 200);
+        }else{
+            // return response()->json([false]);
+            return response()->json(['error' => 'Error al guardar'], 404);
+        }
     }
 
     /**
@@ -44,9 +65,36 @@ class AccountsController extends Controller
      * @param  \App\Accounts  $accounts
      * @return \Illuminate\Http\Response
      */
-    public function show(Accounts $accounts)
+    public function show()
     {
-        //
+        $user_uthenticade = Auth::user();
+
+        $accounts = Accounts::where('id_user', $user_uthenticade->id)
+                            ->orderBy('created_at', 'desc')->get();
+
+        if($accounts){
+            return response()->json($accounts, 200);
+        }else{
+            return response()->json(['error' => 'Error'], 404);
+        }
+    }
+
+    /**
+     * Display only 1 specific resource.
+     *
+     * @param  \App\Accounts  $accounts
+     * @return \Illuminate\Http\Response
+     */
+    public function findAccount(String $id)
+    {
+
+        $account = Accounts::find($id);
+
+        if($account){
+            return response()->json($account, 200);
+        }else{
+            return response()->json(['error' => 'Error cuenta no existe'], 404);
+        }
     }
 
     /**

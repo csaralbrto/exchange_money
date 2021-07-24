@@ -16,3 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+/* Routes from Users */
+Route::post('userSave', 'UserController@store')->name('userSave');
+Route::middleware('auth')->get('showUserData', 'UserController@show')->name('showUserData');
+Route::middleware('auth')->put('editUserData', 'UserController@update')->name('editUserData');
+/* End Routes from Users */
+
+/* Routes from Accounts */
+Route::post('accountSave', 'AccountsController@store')->name('accountSave');
+Route::middleware('auth')->get('allAccountsUsers', 'AccountsController@show')->name('allAccountsUsers');
+Route::middleware('auth')->get('getAccount', 'AccountsController@findAccount')->name('getAccount');
+/* End Routes from Accounts */
