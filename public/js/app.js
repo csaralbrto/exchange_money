@@ -2329,6 +2329,100 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: {},
   data: function data() {
@@ -39507,616 +39601,664 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    { staticClass: "wrapper" },
-    [
-      _c(
-        "parallax",
-        {
-          staticClass: "section page-header header-filter",
-          style: _vm.headerStyle
-        },
-        [
-          _c("div", { staticClass: "container" }, [
-            _c("div", { staticClass: "md-layout" }, [
-              _c(
-                "div",
-                {
-                  staticClass:
-                    "\n            md-layout-item md-size-50 md-small-size-70 md-xsmall-size-100\n          "
-                },
-                [
-                  _c("h1", { staticClass: "title" }, [
-                    _vm._v("Your Story Starts With Us.")
-                  ]),
-                  _vm._v(" "),
-                  _c("h4", [
-                    _vm._v(
-                      "\n            Every landing page needs a small description after the big bold\n            title, that's why we added this text here. Add here all the\n            information that can make you or your product create the first\n            impression.\n          "
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("br"),
-                  _vm._v(" "),
-                  _c(
-                    "md-button",
-                    {
-                      staticClass: "md-success md-lg",
-                      attrs: {
-                        href: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-                        target: "_blank"
-                      }
-                    },
-                    [
-                      _c("i", { staticClass: "fas fa-play" }),
-                      _vm._v(" Watch video")
-                    ]
-                  )
-                ],
-                1
-              )
-            ])
-          ])
-        ]
-      ),
-      _vm._v(" "),
-      _c("div", { staticClass: "main main-raised" }, [
-        _c("div", { staticClass: "section" }, [
-          _c("div", { staticClass: "container" }, [
-            _vm._m(0),
-            _vm._v(" "),
-            _c("div", { staticClass: "features text-center" }, [
-              _c("div", { staticClass: "md-layout" }, [
-                _c(
-                  "div",
-                  {
-                    staticClass:
-                      "md-layout-item md-medium-size-33 md-small-size-100"
-                  },
-                  [
-                    _c("div", { staticClass: "info" }, [
-                      _c(
-                        "div",
-                        { staticClass: "icon icon-info" },
-                        [_c("md-icon", [_vm._v("chat")])],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c("h4", { staticClass: "info-title" }, [
-                        _vm._v("Free Chat")
-                      ]),
-                      _vm._v(" "),
-                      _c("p", [
-                        _vm._v(
-                          "\n                  Divide details about your product or agency work into parts.\n                  Write a few lines about each one. A paragraph describing a\n                  feature will be enough.\n                "
-                        )
-                      ])
-                    ])
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  {
-                    staticClass:
-                      "md-layout-item md-medium-size-33 md-small-size-100"
-                  },
-                  [
-                    _c("div", { staticClass: "info" }, [
-                      _c(
-                        "div",
-                        { staticClass: "icon icon-success" },
-                        [_c("md-icon", [_vm._v("verified_user")])],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c("h4", { staticClass: "info-title" }, [
-                        _vm._v("Verified Users")
-                      ]),
-                      _vm._v(" "),
-                      _c("p", [
-                        _vm._v(
-                          "\n                  Divide details about your product or agency work into parts.\n                  Write a few lines about each one. A paragraph describing a\n                  feature will be enough.\n                "
-                        )
-                      ])
-                    ])
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  {
-                    staticClass:
-                      "md-layout-item md-medium-size-33 md-small-size-100"
-                  },
-                  [
-                    _c("div", { staticClass: "info" }, [
-                      _c(
-                        "div",
-                        { staticClass: "icon icon-danger" },
-                        [_c("md-icon", [_vm._v("fingerprint")])],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c("h4", { staticClass: "info-title" }, [
-                        _vm._v("Fingerprint")
-                      ]),
-                      _vm._v(" "),
-                      _c("p", [
-                        _vm._v(
-                          "\n                  Divide details about your product or agency work into parts.\n                  Write a few lines about each one. A paragraph describing a\n                  feature will be enough.\n                "
-                        )
-                      ])
-                    ])
-                  ]
-                )
-              ])
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "section text-center" }, [
-          _c("div", { staticClass: "container" }, [
-            _c("h2", { staticClass: "title" }, [_vm._v("Here is our team")]),
-            _vm._v(" "),
-            _c("div", { staticClass: "team" }, [
-              _c("div", { staticClass: "md-layout" }, [
-                _c(
-                  "div",
-                  {
-                    staticClass:
-                      "md-layout-item md-medium-size-33 md-small-size-100"
-                  },
-                  [
-                    _c(
-                      "div",
-                      { staticClass: "team-player" },
-                      [
-                        _c(
-                          "md-card",
-                          { staticClass: "md-card-plain" },
-                          [
-                            _c(
-                              "div",
-                              {
-                                staticClass: "md-layout-item md-size-50 mx-auto"
-                              },
-                              [
-                                _c("img", {
-                                  staticClass:
-                                    "img-raised rounded-circle img-fluid",
-                                  attrs: {
-                                    src: _vm.teamImg1,
-                                    alt: "Thumbnail Image"
-                                  }
-                                })
-                              ]
-                            ),
-                            _vm._v(" "),
-                            _c("h4", { staticClass: "card-title" }, [
-                              _vm._v(
-                                "\n                    Gigi Hadid\n                    "
-                              ),
-                              _c("br"),
-                              _vm._v(" "),
-                              _c(
-                                "small",
-                                { staticClass: "card-description text-muted" },
-                                [_vm._v("Model")]
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("md-card-content", [
-                              _c("p", { staticClass: "card-description" }, [
-                                _vm._v(
-                                  "\n                      You can write here details about one of your team\n                      members. You can give more details about what they do.\n                      Feel free to add some "
-                                ),
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v("links")
-                                ]),
-                                _vm._v(
-                                  " for people\n                      to be able to follow them outside the site.\n                    "
-                                )
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c(
-                              "md-card-actions",
-                              { staticClass: "text-center" },
-                              [
-                                _c(
-                                  "md-button",
-                                  {
-                                    staticClass: "md-just-icon md-simple",
-                                    attrs: { href: "javascript:void(0)" }
-                                  },
-                                  [_c("i", { staticClass: "fab fa-twitter" })]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "md-button",
-                                  {
-                                    staticClass: "md-just-icon md-simple",
-                                    attrs: { href: "javascript:void(0)" }
-                                  },
-                                  [_c("i", { staticClass: "fab fa-instagram" })]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "md-button",
-                                  {
-                                    staticClass: "md-just-icon md-simple",
-                                    attrs: { href: "javascript:void(0)" }
-                                  },
-                                  [
-                                    _c("i", {
-                                      staticClass: "fab fa-facebook-square"
-                                    })
-                                  ]
-                                )
-                              ],
-                              1
-                            )
-                          ],
-                          1
-                        )
-                      ],
-                      1
-                    )
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  {
-                    staticClass:
-                      "md-layout-item md-medium-size-33 md-small-size-100"
-                  },
-                  [
-                    _c(
-                      "div",
-                      { staticClass: "team-player" },
-                      [
-                        _c(
-                          "md-card",
-                          { staticClass: "md-card-plain" },
-                          [
-                            _c(
-                              "div",
-                              {
-                                staticClass: "md-layout-item md-size-50 mx-auto"
-                              },
-                              [
-                                _c("img", {
-                                  staticClass:
-                                    "img-raised rounded-circle img-fluid",
-                                  attrs: {
-                                    src: _vm.teamImg2,
-                                    alt: "Thumbnail Image"
-                                  }
-                                })
-                              ]
-                            ),
-                            _vm._v(" "),
-                            _c("h4", { staticClass: "card-title" }, [
-                              _vm._v(
-                                "\n                    Carla Hortensia\n                    "
-                              ),
-                              _c("br"),
-                              _vm._v(" "),
-                              _c(
-                                "small",
-                                { staticClass: "card-description text-muted" },
-                                [_vm._v("Designer")]
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("md-card-content", [
-                              _c("p", { staticClass: "card-description" }, [
-                                _vm._v(
-                                  "\n                      You can write here details about one of your team\n                      members. You can give more details about what they do.\n                      Feel free to add some "
-                                ),
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v("links")
-                                ]),
-                                _vm._v(
-                                  " for people\n                      to be able to follow them outside the site.\n                    "
-                                )
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c(
-                              "md-card-actions",
-                              { staticClass: "text-center" },
-                              [
-                                _c(
-                                  "md-button",
-                                  {
-                                    staticClass: "md-just-icon md-simple",
-                                    attrs: { href: "javascript:void(0)" }
-                                  },
-                                  [_c("i", { staticClass: "fab fa-twitter" })]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "md-button",
-                                  {
-                                    staticClass: "md-just-icon md-simple",
-                                    attrs: { href: "javascript:void(0)" }
-                                  },
-                                  [_c("i", { staticClass: "fab fa-linkedin" })]
-                                )
-                              ],
-                              1
-                            )
-                          ],
-                          1
-                        )
-                      ],
-                      1
-                    )
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  {
-                    staticClass:
-                      "md-layout-item md-medium-size-33 md-small-size-100"
-                  },
-                  [
-                    _c(
-                      "div",
-                      { staticClass: "team-player" },
-                      [
-                        _c(
-                          "md-card",
-                          { staticClass: "md-card-plain" },
-                          [
-                            _c(
-                              "div",
-                              {
-                                staticClass: "md-layout-item md-size-50 mx-auto"
-                              },
-                              [
-                                _c("img", {
-                                  staticClass:
-                                    "img-raised rounded-circle img-fluid",
-                                  attrs: {
-                                    src: _vm.teamImg3,
-                                    alt: "Thumbnail Image"
-                                  }
-                                })
-                              ]
-                            ),
-                            _vm._v(" "),
-                            _c("h4", { staticClass: "card-title" }, [
-                              _vm._v(
-                                "\n                    Kendall Jenner\n                    "
-                              ),
-                              _c("br"),
-                              _vm._v(" "),
-                              _c(
-                                "small",
-                                { staticClass: "card-description text-muted" },
-                                [_vm._v("Model")]
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("md-card-content", [
-                              _c("p", { staticClass: "card-description" }, [
-                                _vm._v(
-                                  "\n                      You can write here details about one of your team\n                      members. You can give more details about what they do.\n                      Feel free to add some "
-                                ),
-                                _c("a", { attrs: { href: "#" } }, [
-                                  _vm._v("links")
-                                ]),
-                                _vm._v(
-                                  " for people\n                      to be able to follow them outside the site.\n                    "
-                                )
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c(
-                              "md-card-actions",
-                              { staticClass: "text-center" },
-                              [
-                                _c(
-                                  "md-button",
-                                  {
-                                    staticClass: "md-just-icon md-simple",
-                                    attrs: { href: "javascript:void(0)" }
-                                  },
-                                  [_c("i", { staticClass: "fab fa-twitter" })]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "md-button",
-                                  {
-                                    staticClass: "md-just-icon md-simple",
-                                    attrs: { href: "javascript:void(0)" }
-                                  },
-                                  [_c("i", { staticClass: "fab fa-instagram" })]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "md-button",
-                                  {
-                                    staticClass: "md-just-icon md-simple",
-                                    attrs: { href: "javascript:void(0)" }
-                                  },
-                                  [
-                                    _c("i", {
-                                      staticClass: "fab fa-facebook-square"
-                                    })
-                                  ]
-                                )
-                              ],
-                              1
-                            )
-                          ],
-                          1
-                        )
-                      ],
-                      1
-                    )
-                  ]
-                )
-              ])
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "section section-contacts" }, [
-          _c("div", { staticClass: "container" }, [
-            _c("div", { staticClass: "md-layout" }, [
-              _c(
-                "div",
-                {
-                  staticClass:
-                    "md-layout-item md-size-66 md-xsmall-size-100 mx-auto"
-                },
-                [
-                  _c("h2", { staticClass: "text-center title" }, [
-                    _vm._v("Work with us")
-                  ]),
-                  _vm._v(" "),
-                  _c("h4", { staticClass: "text-center description" }, [
-                    _vm._v(
-                      "\n              Divide details about your product or agency work into parts.\n              Write a few lines about each one and contact us about any\n              further collaboration. We will responde get back to you in a\n              couple of hours.\n            "
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "form",
-                    { staticClass: "contact-form" },
-                    [
-                      _c("div", { staticClass: "md-layout" }, [
-                        _c(
-                          "div",
-                          { staticClass: "md-layout-item md-size-50" },
-                          [
-                            _c(
-                              "md-field",
-                              [
-                                _c("label", [_vm._v("Your Name")]),
-                                _vm._v(" "),
-                                _c("md-input", {
-                                  attrs: { type: "text" },
-                                  model: {
-                                    value: _vm.name,
-                                    callback: function($$v) {
-                                      _vm.name = $$v
-                                    },
-                                    expression: "name"
-                                  }
-                                })
-                              ],
-                              1
-                            )
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "div",
-                          { staticClass: "md-layout-item md-size-50" },
-                          [
-                            _c(
-                              "md-field",
-                              [
-                                _c("label", [_vm._v("Your Email")]),
-                                _vm._v(" "),
-                                _c("md-input", {
-                                  attrs: { type: "email" },
-                                  model: {
-                                    value: _vm.email,
-                                    callback: function($$v) {
-                                      _vm.email = $$v
-                                    },
-                                    expression: "email"
-                                  }
-                                })
-                              ],
-                              1
-                            )
-                          ],
-                          1
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c(
-                        "md-field",
-                        { attrs: { maxlength: "5" } },
-                        [
-                          _c("label", [_vm._v("Your Message")]),
-                          _vm._v(" "),
-                          _c("md-textarea", {
-                            model: {
-                              value: _vm.message,
-                              callback: function($$v) {
-                                _vm.message = $$v
-                              },
-                              expression: "message"
-                            }
-                          })
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "md-layout" }, [
-                        _c(
-                          "div",
-                          {
-                            staticClass:
-                              "md-layout-item md-size-33 mx-auto text-center"
-                          },
-                          [
-                            _c("md-button", { staticClass: "md-success" }, [
-                              _vm._v("Send Message")
-                            ])
-                          ],
-                          1
-                        )
-                      ])
-                    ],
-                    1
-                  )
-                ]
-              )
-            ])
-          ])
-        ])
-      ])
-    ],
-    1
-  )
+  return _vm._m(0)
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "md-layout" }, [
+    return _c("div", { staticClass: "wrapper" }, [
+      _c(
+        "nav",
+        {
+          staticClass:
+            "\n      navbar navbar-transparent navbar-color-on-scroll\n      fixed-top\n      navbar-expand-lg\n    ",
+          attrs: { "color-on-scroll": "100", id: "sectionsNav" }
+        },
+        [
+          _c("div", { staticClass: "container" }, [
+            _c("div", { staticClass: "navbar-translate" }, [
+              _c(
+                "a",
+                {
+                  staticClass: "navbar-brand",
+                  attrs: {
+                    href:
+                      "https://demos.creative-tim.com/material-kit/index.html"
+                  }
+                },
+                [_vm._v("\n          Material Kit\n        ")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "navbar-toggler",
+                  attrs: {
+                    type: "button",
+                    "data-toggle": "collapse",
+                    "aria-expanded": "false",
+                    "aria-label": "Toggle navigation"
+                  }
+                },
+                [
+                  _c("span", { staticClass: "sr-only" }, [
+                    _vm._v("Toggle navigation")
+                  ]),
+                  _vm._v(" "),
+                  _c("span", { staticClass: "navbar-toggler-icon" }),
+                  _vm._v(" "),
+                  _c("span", { staticClass: "navbar-toggler-icon" }),
+                  _vm._v(" "),
+                  _c("span", { staticClass: "navbar-toggler-icon" })
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "collapse navbar-collapse" }, [
+              _c("ul", { staticClass: "navbar-nav ml-auto" }, [
+                _c("li", { staticClass: "dropdown nav-item" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "dropdown-toggle nav-link",
+                      attrs: { href: "#", "data-toggle": "dropdown" }
+                    },
+                    [
+                      _c("i", { staticClass: "material-icons" }, [
+                        _vm._v("apps")
+                      ]),
+                      _vm._v(" Components\n            ")
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "dropdown-menu dropdown-with-icons" },
+                    [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "dropdown-item",
+                          attrs: { href: "../index.html" }
+                        },
+                        [
+                          _c("i", { staticClass: "material-icons" }, [
+                            _vm._v("layers")
+                          ]),
+                          _vm._v(" All Components\n              ")
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticClass: "dropdown-item",
+                          attrs: {
+                            href:
+                              "https://demos.creative-tim.com/material-kit/docs/2.0/getting-started/introduction.html"
+                          }
+                        },
+                        [
+                          _c("i", { staticClass: "material-icons" }, [
+                            _vm._v("content_paste")
+                          ]),
+                          _vm._v(" Documentation\n              ")
+                        ]
+                      )
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "nav-item" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "nav-link",
+                      attrs: {
+                        href:
+                          "https://www.creative-tim.com/product/material-kit-pro",
+                        target: "_blank"
+                      }
+                    },
+                    [
+                      _c("i", { staticClass: "material-icons" }, [
+                        _vm._v("unarchive")
+                      ]),
+                      _vm._v(" Upgrade to PRO\n            ")
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "nav-item" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "nav-link",
+                      attrs: {
+                        rel: "tooltip",
+                        title: "",
+                        "data-placement": "bottom",
+                        href: "https://twitter.com/CreativeTim",
+                        target: "_blank",
+                        "data-original-title": "Follow us on Twitter"
+                      }
+                    },
+                    [_c("i", { staticClass: "fa fa-twitter" })]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "nav-item" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "nav-link",
+                      attrs: {
+                        rel: "tooltip",
+                        title: "",
+                        "data-placement": "bottom",
+                        href: "https://www.facebook.com/CreativeTim",
+                        target: "_blank",
+                        "data-original-title": "Like us on Facebook"
+                      }
+                    },
+                    [_c("i", { staticClass: "fa fa-facebook-square" })]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "nav-item" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "nav-link",
+                      attrs: {
+                        rel: "tooltip",
+                        title: "",
+                        "data-placement": "bottom",
+                        href: "https://www.instagram.com/CreativeTimOfficial",
+                        target: "_blank",
+                        "data-original-title": "Follow us on Instagram"
+                      }
+                    },
+                    [_c("i", { staticClass: "fa fa-instagram" })]
+                  )
+                ])
+              ])
+            ])
+          ])
+        ]
+      ),
+      _vm._v(" "),
       _c(
         "div",
         {
-          staticClass:
-            "\n              md-layout-item md-size-66 md-xsmall-size-100\n              mx-auto\n              text-center\n            "
+          staticClass: "page-header header-filter",
+          staticStyle: {
+            "background-image": "url('../../assets/img/profile_city.jpg')"
+          },
+          attrs: { "data-parallax": "true" }
         },
         [
-          _c("h2", { staticClass: "title text-center" }, [
-            _vm._v("Let's talk product")
-          ]),
-          _vm._v(" "),
-          _c("h5", { staticClass: "description" }, [
-            _vm._v(
-              "\n              This is the paragraph where you can write more details about\n              your product. Keep you user engaged by providing meaningful\n              information. Remember that by this time, the user is curious,\n              otherwise he wouldn't scroll to get here. Add a button if you\n              want the user to see more.\n            "
-            )
+          _c("div", { staticClass: "container" }, [
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-md-6" }, [
+                _c("h1", { staticClass: "title" }, [
+                  _vm._v("Your Story Starts With Us.")
+                ]),
+                _vm._v(" "),
+                _c("h4", [
+                  _vm._v(
+                    "\n            Every landing page needs a small description after the big bold\n            title, that's why we added this text here. Add here all the\n            information that can make you or your product create the first\n            impression.\n          "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("br"),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  {
+                    staticClass: "btn btn-danger btn-raised btn-lg",
+                    attrs: {
+                      href: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                      target: "_blank"
+                    }
+                  },
+                  [
+                    _c("i", { staticClass: "fa fa-play" }),
+                    _vm._v(" Watch video\n          ")
+                  ]
+                )
+              ])
+            ])
           ])
         ]
-      )
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "main main-raised" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "section text-center" }, [
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-md-8 ml-auto mr-auto" }, [
+                _c("h2", { staticClass: "title" }, [
+                  _vm._v("Let's talk product")
+                ]),
+                _vm._v(" "),
+                _c("h5", { staticClass: "description" }, [
+                  _vm._v(
+                    "\n              This is the paragraph where you can write more details about\n              your product. Keep you user engaged by providing meaningful\n              information. Remember that by this time, the user is curious,\n              otherwise he wouldn't scroll to get here. Add a button if\n              you want the user to see more.\n            "
+                  )
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "features" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-md-4" }, [
+                  _c("div", { staticClass: "info" }, [
+                    _c("div", { staticClass: "icon icon-info" }, [
+                      _c("i", { staticClass: "material-icons" }, [
+                        _vm._v("chat")
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("h4", { staticClass: "info-title" }, [
+                      _vm._v("Free Chat")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "\n                  Divide details about your product or agency work into parts.\n                  Write a few lines about each one. A paragraph describing a\n                  feature will be enough.\n                "
+                      )
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-md-4" }, [
+                  _c("div", { staticClass: "info" }, [
+                    _c("div", { staticClass: "icon icon-success" }, [
+                      _c("i", { staticClass: "material-icons" }, [
+                        _vm._v("verified_user")
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("h4", { staticClass: "info-title" }, [
+                      _vm._v("Verified Users")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "\n                  Divide details about your product or agency work into parts.\n                  Write a few lines about each one. A paragraph describing a\n                  feature will be enough.\n                "
+                      )
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-md-4" }, [
+                  _c("div", { staticClass: "info" }, [
+                    _c("div", { staticClass: "icon icon-danger" }, [
+                      _c("i", { staticClass: "material-icons" }, [
+                        _vm._v("fingerprint")
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("h4", { staticClass: "info-title" }, [
+                      _vm._v("Fingerprint")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "\n                  Divide details about your product or agency work into parts.\n                  Write a few lines about each one. A paragraph describing a\n                  feature will be enough.\n                "
+                      )
+                    ])
+                  ])
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "section text-center" }, [
+            _c("h2", { staticClass: "title" }, [_vm._v("Here is our team")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "team" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-md-4" }, [
+                  _c("div", { staticClass: "team-player" }, [
+                    _c("div", { staticClass: "card card-plain" }, [
+                      _c("div", { staticClass: "col-md-6 ml-auto mr-auto" }, [
+                        _c("img", {
+                          staticClass: "img-raised rounded-circle img-fluid",
+                          attrs: {
+                            src: __webpack_require__(/*! ../../assets/img/faces/avatar.jpg */ "./resources/assets/img/faces/avatar.jpg"),
+                            alt: "Thumbnail Image"
+                          }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("h4", { staticClass: "card-title" }, [
+                        _vm._v(
+                          "\n                    Gigi Hadid\n                    "
+                        ),
+                        _c("br"),
+                        _vm._v(" "),
+                        _c(
+                          "small",
+                          { staticClass: "card-description text-muted" },
+                          [_vm._v("Model")]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "card-body" }, [
+                        _c("p", { staticClass: "card-description" }, [
+                          _vm._v(
+                            "\n                      You can write here details about one of your team\n                      members. You can give more details about what they do.\n                      Feel free to add some "
+                          ),
+                          _c("a", { attrs: { href: "#" } }, [_vm._v("links")]),
+                          _vm._v(
+                            " for people\n                      to be able to follow them outside the site.\n                    "
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "card-footer justify-content-center" },
+                        [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "btn btn-link btn-just-icon",
+                              attrs: { href: "#pablo" }
+                            },
+                            [_c("i", { staticClass: "fa fa-twitter" })]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "a",
+                            {
+                              staticClass: "btn btn-link btn-just-icon",
+                              attrs: { href: "#pablo" }
+                            },
+                            [_c("i", { staticClass: "fa fa-instagram" })]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "a",
+                            {
+                              staticClass: "btn btn-link btn-just-icon",
+                              attrs: { href: "#pablo" }
+                            },
+                            [_c("i", { staticClass: "fa fa-facebook-square" })]
+                          )
+                        ]
+                      )
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-md-4" }, [
+                  _c("div", { staticClass: "team-player" }, [
+                    _c("div", { staticClass: "card card-plain" }, [
+                      _c("div", { staticClass: "col-md-6 ml-auto mr-auto" }, [
+                        _c("img", {
+                          staticClass: "img-raised rounded-circle img-fluid",
+                          attrs: {
+                            src: __webpack_require__(/*! ../../assets/img/faces/christian.jpg */ "./resources/assets/img/faces/christian.jpg"),
+                            alt: "Thumbnail Image"
+                          }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("h4", { staticClass: "card-title" }, [
+                        _vm._v(
+                          "\n                    Christian Louboutin\n                    "
+                        ),
+                        _c("br"),
+                        _vm._v(" "),
+                        _c(
+                          "small",
+                          { staticClass: "card-description text-muted" },
+                          [_vm._v("Designer")]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "card-body" }, [
+                        _c("p", { staticClass: "card-description" }, [
+                          _vm._v(
+                            "\n                      You can write here details about one of your team\n                      members. You can give more details about what they do.\n                      Feel free to add some "
+                          ),
+                          _c("a", { attrs: { href: "#" } }, [_vm._v("links")]),
+                          _vm._v(
+                            " for people\n                      to be able to follow them outside the site.\n                    "
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "card-footer justify-content-center" },
+                        [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "btn btn-link btn-just-icon",
+                              attrs: { href: "#pablo" }
+                            },
+                            [_c("i", { staticClass: "fa fa-twitter" })]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "a",
+                            {
+                              staticClass: "btn btn-link btn-just-icon",
+                              attrs: { href: "#pablo" }
+                            },
+                            [_c("i", { staticClass: "fa fa-linkedin" })]
+                          )
+                        ]
+                      )
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-md-4" }, [
+                  _c("div", { staticClass: "team-player" }, [
+                    _c("div", { staticClass: "card card-plain" }, [
+                      _c("div", { staticClass: "col-md-6 ml-auto mr-auto" }, [
+                        _c("img", {
+                          staticClass: "img-raised rounded-circle img-fluid",
+                          attrs: {
+                            src: __webpack_require__(/*! ../../assets/img/faces/kendall.jpg */ "./resources/assets/img/faces/kendall.jpg"),
+                            alt: "Thumbnail Image"
+                          }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("h4", { staticClass: "card-title" }, [
+                        _vm._v(
+                          "\n                    Kendall Jenner\n                    "
+                        ),
+                        _c("br"),
+                        _vm._v(" "),
+                        _c(
+                          "small",
+                          { staticClass: "card-description text-muted" },
+                          [_vm._v("Model")]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "card-body" }, [
+                        _c("p", { staticClass: "card-description" }, [
+                          _vm._v(
+                            "\n                      You can write here details about one of your team\n                      members. You can give more details about what they do.\n                      Feel free to add some "
+                          ),
+                          _c("a", { attrs: { href: "#" } }, [_vm._v("links")]),
+                          _vm._v(
+                            " for people\n                      to be able to follow them outside the site.\n                    "
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "card-footer justify-content-center" },
+                        [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "btn btn-link btn-just-icon",
+                              attrs: { href: "#pablo" }
+                            },
+                            [_c("i", { staticClass: "fa fa-twitter" })]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "a",
+                            {
+                              staticClass: "btn btn-link btn-just-icon",
+                              attrs: { href: "#pablo" }
+                            },
+                            [_c("i", { staticClass: "fa fa-instagram" })]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "a",
+                            {
+                              staticClass: "btn btn-link btn-just-icon",
+                              attrs: { href: "#pablo" }
+                            },
+                            [_c("i", { staticClass: "fa fa-facebook-square" })]
+                          )
+                        ]
+                      )
+                    ])
+                  ])
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "section section-contacts" }, [
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-md-8 ml-auto mr-auto" }, [
+                _c("h2", { staticClass: "text-center title" }, [
+                  _vm._v("Work with us")
+                ]),
+                _vm._v(" "),
+                _c("h4", { staticClass: "text-center description" }, [
+                  _vm._v(
+                    "\n              Divide details about your product or agency work into parts.\n              Write a few lines about each one and contact us about any\n              further collaboration. We will responde get back to you in a\n              couple of hours.\n            "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("form", { staticClass: "contact-form" }, [
+                  _c("div", { staticClass: "row" }, [
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("label", { staticClass: "bmd-label-floating" }, [
+                          _vm._v("Your Name")
+                        ]),
+                        _vm._v(" "),
+                        _c("input", {
+                          staticClass: "form-control",
+                          attrs: { type: "email" }
+                        })
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("label", { staticClass: "bmd-label-floating" }, [
+                          _vm._v("Your Email")
+                        ]),
+                        _vm._v(" "),
+                        _c("input", {
+                          staticClass: "form-control",
+                          attrs: { type: "email" }
+                        })
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group" }, [
+                    _c(
+                      "label",
+                      {
+                        staticClass: "bmd-label-floating",
+                        attrs: { for: "exampleMessage" }
+                      },
+                      [_vm._v("Your Message")]
+                    ),
+                    _vm._v(" "),
+                    _c("textarea", {
+                      staticClass: "form-control",
+                      attrs: { type: "email", rows: "4", id: "exampleMessage" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "row" }, [
+                    _c(
+                      "div",
+                      { staticClass: "col-md-4 ml-auto mr-auto text-center" },
+                      [
+                        _c(
+                          "button",
+                          { staticClass: "btn btn-primary btn-raised" },
+                          [
+                            _vm._v(
+                              "\n                    Send Message\n                  "
+                            )
+                          ]
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("footer", { staticClass: "footer footer-default" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("nav", { staticClass: "float-left" }, [
+            _c("ul", [
+              _c("li", [
+                _c("a", { attrs: { href: "https://www.creative-tim.com/" } }, [
+                  _vm._v(" Creative Tim ")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("li", [
+                _c(
+                  "a",
+                  {
+                    attrs: { href: "https://www.creative-tim.com/presentation" }
+                  },
+                  [_vm._v(" About Us ")]
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", [
+                _c(
+                  "a",
+                  { attrs: { href: "https://www.creative-tim.com/blog" } },
+                  [_vm._v(" Blog ")]
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", [
+                _c(
+                  "a",
+                  { attrs: { href: "https://www.creative-tim.com/license" } },
+                  [_vm._v(" Licenses ")]
+                )
+              ])
+            ])
+          ])
+        ])
+      ])
     ])
   }
 ]

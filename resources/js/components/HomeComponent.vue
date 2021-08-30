@@ -1,58 +1,157 @@
 <template>
   <div class="wrapper">
-    <parallax class="section page-header header-filter" :style="headerStyle">
+    <nav
+      class="
+        navbar navbar-transparent navbar-color-on-scroll
+        fixed-top
+        navbar-expand-lg
+      "
+      color-on-scroll="100"
+      id="sectionsNav"
+    >
       <div class="container">
-        <div class="md-layout">
-          <div
-            class="
-              md-layout-item md-size-50 md-small-size-70 md-xsmall-size-100
-            "
+        <div class="navbar-translate">
+          <a
+            class="navbar-brand"
+            href="https://demos.creative-tim.com/material-kit/index.html"
           >
+            Material Kit
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="dropdown nav-item">
+              <a
+                href="#"
+                class="dropdown-toggle nav-link"
+                data-toggle="dropdown"
+              >
+                <i class="material-icons">apps</i> Components
+              </a>
+              <div class="dropdown-menu dropdown-with-icons">
+                <a href="../index.html" class="dropdown-item">
+                  <i class="material-icons">layers</i> All Components
+                </a>
+                <a
+                  href="https://demos.creative-tim.com/material-kit/docs/2.0/getting-started/introduction.html"
+                  class="dropdown-item"
+                >
+                  <i class="material-icons">content_paste</i> Documentation
+                </a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.creative-tim.com/product/material-kit-pro"
+                target="_blank"
+              >
+                <i class="material-icons">unarchive</i> Upgrade to PRO
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                rel="tooltip"
+                title=""
+                data-placement="bottom"
+                href="https://twitter.com/CreativeTim"
+                target="_blank"
+                data-original-title="Follow us on Twitter"
+              >
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                rel="tooltip"
+                title=""
+                data-placement="bottom"
+                href="https://www.facebook.com/CreativeTim"
+                target="_blank"
+                data-original-title="Like us on Facebook"
+              >
+                <i class="fa fa-facebook-square"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                rel="tooltip"
+                title=""
+                data-placement="bottom"
+                href="https://www.instagram.com/CreativeTimOfficial"
+                target="_blank"
+                data-original-title="Follow us on Instagram"
+              >
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="page-header header-filter"
+      data-parallax="true"
+      style="background-image: url('../../assets/img/profile_city.jpg')"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
             <h1 class="title">Your Story Starts With Us.</h1>
             <h4>
               Every landing page needs a small description after the big bold
-              title, that's why we added this text here. Add here all the
+              title, that&apos;s why we added this text here. Add here all the
               information that can make you or your product create the first
               impression.
             </h4>
             <br />
-            <md-button
+            <a
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-              class="md-success md-lg"
               target="_blank"
-              ><i class="fas fa-play"></i> Watch video</md-button
+              class="btn btn-danger btn-raised btn-lg"
             >
+              <i class="fa fa-play"></i> Watch video
+            </a>
           </div>
         </div>
       </div>
-    </parallax>
+    </div>
     <div class="main main-raised">
-      <div class="section">
-        <div class="container">
-          <div class="md-layout">
-            <div
-              class="
-                md-layout-item md-size-66 md-xsmall-size-100
-                mx-auto
-                text-center
-              "
-            >
-              <h2 class="title text-center">Let's talk product</h2>
+      <div class="container">
+        <div class="section text-center">
+          <div class="row">
+            <div class="col-md-8 ml-auto mr-auto">
+              <h2 class="title">Let&apos;s talk product</h2>
               <h5 class="description">
                 This is the paragraph where you can write more details about
                 your product. Keep you user engaged by providing meaningful
                 information. Remember that by this time, the user is curious,
-                otherwise he wouldn't scroll to get here. Add a button if you
-                want the user to see more.
+                otherwise he wouldn&apos;t scroll to get here. Add a button if
+                you want the user to see more.
               </h5>
             </div>
           </div>
-          <div class="features text-center">
-            <div class="md-layout">
-              <div class="md-layout-item md-medium-size-33 md-small-size-100">
+          <div class="features">
+            <div class="row">
+              <div class="col-md-4">
                 <div class="info">
                   <div class="icon icon-info">
-                    <md-icon>chat</md-icon>
+                    <i class="material-icons">chat</i>
                   </div>
                   <h4 class="info-title">Free Chat</h4>
                   <p>
@@ -62,10 +161,10 @@
                   </p>
                 </div>
               </div>
-              <div class="md-layout-item md-medium-size-33 md-small-size-100">
+              <div class="col-md-4">
                 <div class="info">
                   <div class="icon icon-success">
-                    <md-icon>verified_user</md-icon>
+                    <i class="material-icons">verified_user</i>
                   </div>
                   <h4 class="info-title">Verified Users</h4>
                   <p>
@@ -75,10 +174,10 @@
                   </p>
                 </div>
               </div>
-              <div class="md-layout-item md-medium-size-33 md-small-size-100">
+              <div class="col-md-4">
                 <div class="info">
                   <div class="icon icon-danger">
-                    <md-icon>fingerprint</md-icon>
+                    <i class="material-icons">fingerprint</i>
                   </div>
                   <h4 class="info-title">Fingerprint</h4>
                   <p>
@@ -91,18 +190,16 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="section text-center">
-        <div class="container">
+        <div class="section text-center">
           <h2 class="title">Here is our team</h2>
           <div class="team">
-            <div class="md-layout">
-              <div class="md-layout-item md-medium-size-33 md-small-size-100">
+            <div class="row">
+              <div class="col-md-4">
                 <div class="team-player">
-                  <md-card class="md-card-plain">
-                    <div class="md-layout-item md-size-50 mx-auto">
+                  <div class="card card-plain">
+                    <div class="col-md-6 ml-auto mr-auto">
                       <img
-                        :src="teamImg1"
+                        src="../../assets/img/faces/avatar.jpg"
                         alt="Thumbnail Image"
                         class="img-raised rounded-circle img-fluid"
                       />
@@ -112,89 +209,70 @@
                       <br />
                       <small class="card-description text-muted">Model</small>
                     </h4>
-
-                    <md-card-content>
+                    <div class="card-body">
                       <p class="card-description">
                         You can write here details about one of your team
                         members. You can give more details about what they do.
                         Feel free to add some <a href="#">links</a> for people
                         to be able to follow them outside the site.
                       </p>
-                    </md-card-content>
-
-                    <md-card-actions class="text-center">
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-twitter"></i>
-                      </md-button>
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-instagram"></i>
-                      </md-button>
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-facebook-square"></i>
-                      </md-button>
-                    </md-card-actions>
-                  </md-card>
+                    </div>
+                    <div class="card-footer justify-content-center">
+                      <a href="#pablo" class="btn btn-link btn-just-icon"
+                        ><i class="fa fa-twitter"></i
+                      ></a>
+                      <a href="#pablo" class="btn btn-link btn-just-icon"
+                        ><i class="fa fa-instagram"></i
+                      ></a>
+                      <a href="#pablo" class="btn btn-link btn-just-icon"
+                        ><i class="fa fa-facebook-square"></i
+                      ></a>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="md-layout-item md-medium-size-33 md-small-size-100">
+              <div class="col-md-4">
                 <div class="team-player">
-                  <md-card class="md-card-plain">
-                    <div class="md-layout-item md-size-50 mx-auto">
+                  <div class="card card-plain">
+                    <div class="col-md-6 ml-auto mr-auto">
                       <img
-                        :src="teamImg2"
+                        src="../../assets/img/faces/christian.jpg"
                         alt="Thumbnail Image"
                         class="img-raised rounded-circle img-fluid"
                       />
                     </div>
                     <h4 class="card-title">
-                      Carla Hortensia
+                      Christian Louboutin
                       <br />
                       <small class="card-description text-muted"
                         >Designer</small
                       >
                     </h4>
-
-                    <md-card-content>
+                    <div class="card-body">
                       <p class="card-description">
                         You can write here details about one of your team
                         members. You can give more details about what they do.
                         Feel free to add some <a href="#">links</a> for people
                         to be able to follow them outside the site.
                       </p>
-                    </md-card-content>
-
-                    <md-card-actions class="text-center">
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-twitter"></i>
-                      </md-button>
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-linkedin"></i>
-                      </md-button>
-                    </md-card-actions>
-                  </md-card>
+                    </div>
+                    <div class="card-footer justify-content-center">
+                      <a href="#pablo" class="btn btn-link btn-just-icon"
+                        ><i class="fa fa-twitter"></i
+                      ></a>
+                      <a href="#pablo" class="btn btn-link btn-just-icon"
+                        ><i class="fa fa-linkedin"></i
+                      ></a>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="md-layout-item md-medium-size-33 md-small-size-100">
+              <div class="col-md-4">
                 <div class="team-player">
-                  <md-card class="md-card-plain">
-                    <div class="md-layout-item md-size-50 mx-auto">
+                  <div class="card card-plain">
+                    <div class="col-md-6 ml-auto mr-auto">
                       <img
-                        :src="teamImg3"
+                        src="../../assets/img/faces/kendall.jpg"
                         alt="Thumbnail Image"
                         class="img-raised rounded-circle img-fluid"
                       />
@@ -204,47 +282,34 @@
                       <br />
                       <small class="card-description text-muted">Model</small>
                     </h4>
-
-                    <md-card-content>
+                    <div class="card-body">
                       <p class="card-description">
                         You can write here details about one of your team
                         members. You can give more details about what they do.
                         Feel free to add some <a href="#">links</a> for people
                         to be able to follow them outside the site.
                       </p>
-                    </md-card-content>
-
-                    <md-card-actions class="text-center">
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-twitter"></i>
-                      </md-button>
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-instagram"></i>
-                      </md-button>
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-facebook-square"></i>
-                      </md-button>
-                    </md-card-actions>
-                  </md-card>
+                    </div>
+                    <div class="card-footer justify-content-center">
+                      <a href="#pablo" class="btn btn-link btn-just-icon"
+                        ><i class="fa fa-twitter"></i
+                      ></a>
+                      <a href="#pablo" class="btn btn-link btn-just-icon"
+                        ><i class="fa fa-instagram"></i
+                      ></a>
+                      <a href="#pablo" class="btn btn-link btn-just-icon"
+                        ><i class="fa fa-facebook-square"></i
+                      ></a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="section section-contacts">
-        <div class="container">
-          <div class="md-layout">
-            <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto">
+        <div class="section section-contacts">
+          <div class="row">
+            <div class="col-md-8 ml-auto mr-auto">
               <h2 class="text-center title">Work with us</h2>
               <h4 class="text-center description">
                 Divide details about your product or agency work into parts.
@@ -253,27 +318,36 @@
                 couple of hours.
               </h4>
               <form class="contact-form">
-                <div class="md-layout">
-                  <div class="md-layout-item md-size-50">
-                    <md-field>
-                      <label>Your Name</label>
-                      <md-input v-model="name" type="text"></md-input>
-                    </md-field>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label class="bmd-label-floating">Your Name</label>
+                      <input type="email" class="form-control" />
+                    </div>
                   </div>
-                  <div class="md-layout-item md-size-50">
-                    <md-field>
-                      <label>Your Email</label>
-                      <md-input v-model="email" type="email"></md-input>
-                    </md-field>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label class="bmd-label-floating">Your Email</label>
+                      <input type="email" class="form-control" />
+                    </div>
                   </div>
                 </div>
-                <md-field maxlength="5">
-                  <label>Your Message</label>
-                  <md-textarea v-model="message"></md-textarea>
-                </md-field>
-                <div class="md-layout">
-                  <div class="md-layout-item md-size-33 mx-auto text-center">
-                    <md-button class="md-success">Send Message</md-button>
+                <div class="form-group">
+                  <label for="exampleMessage" class="bmd-label-floating"
+                    >Your Message</label
+                  >
+                  <textarea
+                    type="email"
+                    class="form-control"
+                    rows="4"
+                    id="exampleMessage"
+                  ></textarea>
+                </div>
+                <div class="row">
+                  <div class="col-md-4 ml-auto mr-auto text-center">
+                    <button class="btn btn-primary btn-raised">
+                      Send Message
+                    </button>
                   </div>
                 </div>
               </form>
@@ -282,6 +356,26 @@
         </div>
       </div>
     </div>
+    <footer class="footer footer-default">
+      <div class="container">
+        <nav class="float-left">
+          <ul>
+            <li>
+              <a href="https://www.creative-tim.com/"> Creative Tim </a>
+            </li>
+            <li>
+              <a href="https://www.creative-tim.com/presentation"> About Us </a>
+            </li>
+            <li>
+              <a href="https://www.creative-tim.com/blog"> Blog </a>
+            </li>
+            <li>
+              <a href="https://www.creative-tim.com/license"> Licenses </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
   </div>
 </template>
 
