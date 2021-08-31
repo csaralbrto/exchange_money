@@ -2468,7 +2468,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _cards_LoginCard_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./cards/LoginCard.vue */ "./resources/js/components/cards/LoginCard.vue");
 //
 //
 //
@@ -2534,11 +2533,152 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    LoginCard: _cards_LoginCard_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
-  },
   bodyClass: "login-page",
   data: function data() {
     return {
@@ -40283,175 +40423,385 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "wrapper" }, [
-    _c(
-      "div",
-      {
-        staticClass: "section page-header header-filter",
-        style: _vm.headerStyle
-      },
-      [
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "md-layout" }, [
-            _c(
-              "div",
-              {
-                staticClass:
-                  "\n            md-layout-item\n            md-size-33\n            md-small-size-66\n            md-xsmall-size-100\n            md-medium-size-40\n            mx-auto\n          "
-              },
-              [
-                _c(
-                  "login-card",
-                  { attrs: { "header-color": "green" } },
-                  [
-                    _c(
-                      "h4",
-                      {
-                        staticClass: "card-title",
-                        attrs: { slot: "title" },
-                        slot: "title"
-                      },
-                      [_vm._v("Login")]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "md-button",
-                      {
-                        staticClass: "md-just-icon md-simple md-white",
-                        attrs: { slot: "buttons", href: "javascript:void(0)" },
-                        slot: "buttons"
-                      },
-                      [_c("i", { staticClass: "fab fa-facebook-square" })]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "md-button",
-                      {
-                        staticClass: "md-just-icon md-simple md-white",
-                        attrs: { slot: "buttons", href: "javascript:void(0)" },
-                        slot: "buttons"
-                      },
-                      [_c("i", { staticClass: "fab fa-twitter" })]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "md-button",
-                      {
-                        staticClass: "md-just-icon md-simple md-white",
-                        attrs: { slot: "buttons", href: "javascript:void(0)" },
-                        slot: "buttons"
-                      },
-                      [_c("i", { staticClass: "fab fa-google-plus-g" })]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "p",
-                      {
-                        staticClass: "description",
-                        attrs: { slot: "description" },
-                        slot: "description"
-                      },
-                      [_vm._v("Or Be Classical")]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "md-field",
-                      {
-                        staticClass: "md-form-group",
-                        attrs: { slot: "inputs" },
-                        slot: "inputs"
-                      },
-                      [
-                        _c("md-icon", [_vm._v("face")]),
-                        _vm._v(" "),
-                        _c("label", [_vm._v("First Name...")]),
-                        _vm._v(" "),
-                        _c("md-input", {
-                          model: {
-                            value: _vm.firstname,
-                            callback: function($$v) {
-                              _vm.firstname = $$v
-                            },
-                            expression: "firstname"
-                          }
-                        })
-                      ],
-                      1
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "md-field",
-                      {
-                        staticClass: "md-form-group",
-                        attrs: { slot: "inputs" },
-                        slot: "inputs"
-                      },
-                      [
-                        _c("md-icon", [_vm._v("email")]),
-                        _vm._v(" "),
-                        _c("label", [_vm._v("Email...")]),
-                        _vm._v(" "),
-                        _c("md-input", {
-                          attrs: { type: "email" },
-                          model: {
-                            value: _vm.email,
-                            callback: function($$v) {
-                              _vm.email = $$v
-                            },
-                            expression: "email"
-                          }
-                        })
-                      ],
-                      1
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "md-field",
-                      {
-                        staticClass: "md-form-group",
-                        attrs: { slot: "inputs" },
-                        slot: "inputs"
-                      },
-                      [
-                        _c("md-icon", [_vm._v("lock_outline")]),
-                        _vm._v(" "),
-                        _c("label", [_vm._v("Password...")]),
-                        _vm._v(" "),
-                        _c("md-input", {
-                          model: {
-                            value: _vm.password,
-                            callback: function($$v) {
-                              _vm.password = $$v
-                            },
-                            expression: "password"
-                          }
-                        })
-                      ],
-                      1
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "md-button",
-                      {
-                        staticClass: "md-simple md-success md-lg",
-                        attrs: { slot: "footer" },
-                        slot: "footer"
-                      },
-                      [_vm._v("\n              Get Started\n            ")]
-                    )
-                  ],
-                  1
-                )
-              ],
-              1
-            )
-          ])
-        ])
-      ]
-    )
-  ])
+  return _vm._m(0)
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "wrapper" }, [
+      _c(
+        "nav",
+        {
+          staticClass:
+            "\n      navbar navbar-transparent navbar-color-on-scroll\n      fixed-top\n      navbar-expand-lg\n    ",
+          attrs: { "color-on-scroll": "100", id: "sectionsNav" }
+        },
+        [
+          _c("div", { staticClass: "container" }, [
+            _c("div", { staticClass: "navbar-translate" }, [
+              _c(
+                "a",
+                {
+                  staticClass: "navbar-brand",
+                  attrs: {
+                    href:
+                      "https://demos.creative-tim.com/material-kit/index.html"
+                  }
+                },
+                [_vm._v("\n          Material Kit\n        ")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "navbar-toggler",
+                  attrs: {
+                    type: "button",
+                    "data-toggle": "collapse",
+                    "aria-expanded": "false",
+                    "aria-label": "Toggle navigation"
+                  }
+                },
+                [
+                  _c("span", { staticClass: "sr-only" }, [
+                    _vm._v("Toggle navigation")
+                  ]),
+                  _vm._v(" "),
+                  _c("span", { staticClass: "navbar-toggler-icon" }),
+                  _vm._v(" "),
+                  _c("span", { staticClass: "navbar-toggler-icon" }),
+                  _vm._v(" "),
+                  _c("span", { staticClass: "navbar-toggler-icon" })
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "collapse navbar-collapse" }, [
+              _c("ul", { staticClass: "navbar-nav ml-auto" }, [
+                _c("li", { staticClass: "dropdown nav-item" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "dropdown-toggle nav-link",
+                      attrs: { href: "#", "data-toggle": "dropdown" }
+                    },
+                    [
+                      _c("i", { staticClass: "material-icons" }, [
+                        _vm._v("apps")
+                      ]),
+                      _vm._v(" Components\n            ")
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "dropdown-menu dropdown-with-icons" },
+                    [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "dropdown-item",
+                          attrs: { href: "../index.html" }
+                        },
+                        [
+                          _c("i", { staticClass: "material-icons" }, [
+                            _vm._v("layers")
+                          ]),
+                          _vm._v(" All Components\n              ")
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticClass: "dropdown-item",
+                          attrs: {
+                            href:
+                              "https://demos.creative-tim.com/material-kit/docs/2.0/getting-started/introduction.html"
+                          }
+                        },
+                        [
+                          _c("i", { staticClass: "material-icons" }, [
+                            _vm._v("content_paste")
+                          ]),
+                          _vm._v(" Documentation\n              ")
+                        ]
+                      )
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "nav-item" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "nav-link",
+                      attrs: {
+                        href:
+                          "https://www.creative-tim.com/product/material-kit-pro",
+                        target: "_blank"
+                      }
+                    },
+                    [
+                      _c("i", { staticClass: "material-icons" }, [
+                        _vm._v("unarchive")
+                      ]),
+                      _vm._v(" Upgrade to PRO\n            ")
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "nav-item" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "nav-link",
+                      attrs: {
+                        rel: "tooltip",
+                        title: "",
+                        "data-placement": "bottom",
+                        href: "https://twitter.com/CreativeTim",
+                        target: "_blank",
+                        "data-original-title": "Follow us on Twitter"
+                      }
+                    },
+                    [_c("i", { staticClass: "fa fa-twitter" })]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "nav-item" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "nav-link",
+                      attrs: {
+                        rel: "tooltip",
+                        title: "",
+                        "data-placement": "bottom",
+                        href: "https://www.facebook.com/CreativeTim",
+                        target: "_blank",
+                        "data-original-title": "Like us on Facebook"
+                      }
+                    },
+                    [_c("i", { staticClass: "fa fa-facebook-square" })]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "nav-item" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "nav-link",
+                      attrs: {
+                        rel: "tooltip",
+                        title: "",
+                        "data-placement": "bottom",
+                        href: "https://www.instagram.com/CreativeTimOfficial",
+                        target: "_blank",
+                        "data-original-title": "Follow us on Instagram"
+                      }
+                    },
+                    [_c("i", { staticClass: "fa fa-instagram" })]
+                  )
+                ])
+              ])
+            ])
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "page-header header-filter",
+          staticStyle: {
+            "background-image": "url('../assets/img/bg7.jpg')",
+            "background-size": "cover",
+            "background-position": "top center"
+          }
+        },
+        [
+          _c("div", { staticClass: "container" }, [
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-lg-4 col-md-6 ml-auto mr-auto" }, [
+                _c("div", { staticClass: "card card-login" }, [
+                  _c(
+                    "form",
+                    { staticClass: "form", attrs: { method: "", action: "" } },
+                    [
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "card-header card-header-primary text-center"
+                        },
+                        [
+                          _c("h4", { staticClass: "card-title" }, [
+                            _vm._v("Login")
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "social-line" }, [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "btn btn-just-icon btn-link",
+                                attrs: { href: "#pablo" }
+                              },
+                              [
+                                _c("i", {
+                                  staticClass: "fa fa-facebook-square"
+                                })
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "btn btn-just-icon btn-link",
+                                attrs: { href: "#pablo" }
+                              },
+                              [_c("i", { staticClass: "fa fa-twitter" })]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "btn btn-just-icon btn-link",
+                                attrs: { href: "#pablo" }
+                              },
+                              [_c("i", { staticClass: "fa fa-google-plus" })]
+                            )
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "description text-center" }, [
+                        _vm._v("Or Be Classical")
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "card-body" }, [
+                        _c("div", { staticClass: "input-group" }, [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c("span", { staticClass: "input-group-text" }, [
+                              _c("i", { staticClass: "material-icons" }, [
+                                _vm._v("face")
+                              ])
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              placeholder: "First Name..."
+                            }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "input-group" }, [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c("span", { staticClass: "input-group-text" }, [
+                              _c("i", { staticClass: "material-icons" }, [
+                                _vm._v("mail")
+                              ])
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: { type: "email", placeholder: "Email..." }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "input-group" }, [
+                          _c("div", { staticClass: "input-group-prepend" }, [
+                            _c("span", { staticClass: "input-group-text" }, [
+                              _c("i", { staticClass: "material-icons" }, [
+                                _vm._v("lock_outline")
+                              ])
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "password",
+                              placeholder: "Password..."
+                            }
+                          })
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "footer text-center" }, [
+                        _c(
+                          "a",
+                          {
+                            staticClass:
+                              "btn btn-primary btn-link btn-wd btn-lg",
+                            attrs: { href: "#pablo" }
+                          },
+                          [_vm._v("Get Started")]
+                        )
+                      ])
+                    ]
+                  )
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("footer", { staticClass: "footer" }, [
+            _c("div", { staticClass: "container" }, [
+              _c("nav", { staticClass: "float-left" }, [
+                _c("ul", [
+                  _c("li", [
+                    _c(
+                      "a",
+                      { attrs: { href: "https://www.creative-tim.com/" } },
+                      [_vm._v(" Creative Tim ")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        attrs: {
+                          href: "https://www.creative-tim.com/presentation"
+                        }
+                      },
+                      [_vm._v("\n                About Us\n              ")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      { attrs: { href: "https://www.creative-tim.com/blog" } },
+                      [_vm._v(" Blog ")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        attrs: { href: "https://www.creative-tim.com/license" }
+                      },
+                      [_vm._v(" Licenses ")]
+                    )
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ]
+      )
+    ])
+  }
+]
 render._withStripped = true
 
 
