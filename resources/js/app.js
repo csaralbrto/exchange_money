@@ -21,7 +21,7 @@ window.Vue = require('vue');
 
 Vue.component("example-component", require("./components/ExampleComponent.vue").default);
 Vue.component("login-component", require("./components/LoginComponent.vue").default);
-Vue.component("Home-component", require("./components/HomeComponent.vue").default);
+Vue.component("home-component", require("./components/HomeComponent.vue").default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -41,15 +41,15 @@ import Modal from "./components/Modal.vue";
 
 
 export {
-  DropDown,
-  Parallax,
-  Pagination,
-  Slider,
-  Badge,
-  NavTabsCard,
-  LoginCard,
-  Tabs,
-  Modal
+    DropDown,
+    Parallax,
+    Pagination,
+    Slider,
+    Badge,
+    NavTabsCard,
+    LoginCard,
+    Tabs,
+    Modal
 };
 
 const app = new Vue({

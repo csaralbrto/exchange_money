@@ -39795,7 +39795,7 @@ var staticRenderFns = [
         {
           staticClass: "page-header header-filter",
           staticStyle: {
-            "background-image": "url('../../assets/img/profile_city.jpg')"
+            "background-image": "url('assets/img/profile_city.jpg')"
           },
           attrs: { "data-parallax": "true" }
         },
@@ -53196,7 +53196,7 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 
 Vue.component("example-component", __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
 Vue.component("login-component", __webpack_require__(/*! ./components/LoginComponent.vue */ "./resources/js/components/LoginComponent.vue")["default"]);
-Vue.component("Home-component", __webpack_require__(/*! ./components/HomeComponent.vue */ "./resources/js/components/HomeComponent.vue")["default"]);
+Vue.component("home-component", __webpack_require__(/*! ./components/HomeComponent.vue */ "./resources/js/components/HomeComponent.vue")["default"]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -54135,8 +54135,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\casa_cambio\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\casa_cambio\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! /var/www/html/exchange_project/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /var/www/html/exchange_project/resources/css/app.css */"./resources/css/app.css");
 
 
 /***/ })
