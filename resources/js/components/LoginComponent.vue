@@ -3,7 +3,7 @@
     <div
       class="page-header header-filter"
       style="
-        background-image: url('../assets/img/bg7.jpg');
+        background-image: url('../assets/img/profile_city.jpg');
         background-size: cover;
         background-position: top center;
       "

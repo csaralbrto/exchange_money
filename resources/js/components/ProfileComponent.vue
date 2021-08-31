@@ -3,7 +3,7 @@
     <div
       class="page-header header-filter"
       data-parallax="true"
-      style="background-image: url('../../assets/img/city-profile.jpg')"
+      style="background-image: url('../../assets/img/profile_city.jpg')"
     ></div>
     <div class="main main-raised">
       <div class="profile-content">

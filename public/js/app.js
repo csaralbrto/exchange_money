@@ -39768,9 +39768,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "container" }, [
             _c("div", { staticClass: "row" }, [
               _c("div", { staticClass: "col-md-6" }, [
-                _c("h1", { staticClass: "title" }, [
-                  _vm._v("Your Story Starts With Us.")
-                ]),
+                _c("h1", { staticClass: "title" }, [_vm._v("Money exchange")]),
                 _vm._v(" "),
                 _c("h4", [
                   _vm._v(
@@ -39778,22 +39776,7 @@ var staticRenderFns = [
                   )
                 ]),
                 _vm._v(" "),
-                _c("br"),
-                _vm._v(" "),
-                _c(
-                  "a",
-                  {
-                    staticClass: "btn btn-danger btn-raised btn-lg",
-                    attrs: {
-                      href: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-                      target: "_blank"
-                    }
-                  },
-                  [
-                    _c("i", { staticClass: "fa fa-play" }),
-                    _vm._v(" Watch video\n          ")
-                  ]
-                )
+                _c("br")
               ])
             ])
           ])
@@ -40261,7 +40244,7 @@ var staticRenderFns = [
         {
           staticClass: "page-header header-filter",
           staticStyle: {
-            "background-image": "url('../assets/img/bg7.jpg')",
+            "background-image": "url('../assets/img/profile_city.jpg')",
             "background-size": "cover",
             "background-position": "top center"
           }
@@ -40656,7 +40639,7 @@ var staticRenderFns = [
       _c("div", {
         staticClass: "page-header header-filter",
         staticStyle: {
-          "background-image": "url('../../assets/img/city-profile.jpg')"
+          "background-image": "url('../../assets/img/profile_city.jpg')"
         },
         attrs: { "data-parallax": "true" }
       }),
@@ -53588,7 +53571,7 @@ module.exports = "/images/kendall.jpg?5a0e395b3b76565583339619ca3110f4";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/profile_city.jpg?435c148e7c651c91b5eed09eb46cb112";
+module.exports = "/images/profile_city.jpg?d00ad035c978805e1219665e48be3665";
 
 /***/ }),
 
