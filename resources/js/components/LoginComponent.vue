@@ -1,75 +1,215 @@
 <template>
   <div class="wrapper">
-    <div class="section page-header header-filter" :style="headerStyle">
+    <nav
+      class="
+        navbar navbar-transparent navbar-color-on-scroll
+        fixed-top
+        navbar-expand-lg
+      "
+      color-on-scroll="100"
+      id="sectionsNav"
+    >
       <div class="container">
-        <div class="md-layout">
-          <div
-            class="
-              md-layout-item
-              md-size-33
-              md-small-size-66
-              md-xsmall-size-100
-              md-medium-size-40
-              mx-auto
-            "
+        <div class="navbar-translate">
+          <a
+            class="navbar-brand"
+            href="https://demos.creative-tim.com/material-kit/index.html"
           >
-            <login-card header-color="green">
-              <h4 slot="title" class="card-title">Login</h4>
-              <md-button
-                slot="buttons"
-                href="javascript:void(0)"
-                class="md-just-icon md-simple md-white"
+            Material Kit
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="dropdown nav-item">
+              <a
+                href="#"
+                class="dropdown-toggle nav-link"
+                data-toggle="dropdown"
               >
-                <i class="fab fa-facebook-square"></i>
-              </md-button>
-              <md-button
-                slot="buttons"
-                href="javascript:void(0)"
-                class="md-just-icon md-simple md-white"
+                <i class="material-icons">apps</i> Components
+              </a>
+              <div class="dropdown-menu dropdown-with-icons">
+                <a href="../index.html" class="dropdown-item">
+                  <i class="material-icons">layers</i> All Components
+                </a>
+                <a
+                  href="https://demos.creative-tim.com/material-kit/docs/2.0/getting-started/introduction.html"
+                  class="dropdown-item"
+                >
+                  <i class="material-icons">content_paste</i> Documentation
+                </a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.creative-tim.com/product/material-kit-pro"
+                target="_blank"
               >
-                <i class="fab fa-twitter"></i>
-              </md-button>
-              <md-button
-                slot="buttons"
-                href="javascript:void(0)"
-                class="md-just-icon md-simple md-white"
+                <i class="material-icons">unarchive</i> Upgrade to PRO
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                rel="tooltip"
+                title=""
+                data-placement="bottom"
+                href="https://twitter.com/CreativeTim"
+                target="_blank"
+                data-original-title="Follow us on Twitter"
               >
-                <i class="fab fa-google-plus-g"></i>
-              </md-button>
-              <p slot="description" class="description">Or Be Classical</p>
-              <md-field class="md-form-group" slot="inputs">
-                <md-icon>face</md-icon>
-                <label>First Name...</label>
-                <md-input v-model="firstname"></md-input>
-              </md-field>
-              <md-field class="md-form-group" slot="inputs">
-                <md-icon>email</md-icon>
-                <label>Email...</label>
-                <md-input v-model="email" type="email"></md-input>
-              </md-field>
-              <md-field class="md-form-group" slot="inputs">
-                <md-icon>lock_outline</md-icon>
-                <label>Password...</label>
-                <md-input v-model="password"></md-input>
-              </md-field>
-              <md-button slot="footer" class="md-simple md-success md-lg">
-                Get Started
-              </md-button>
-            </login-card>
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                rel="tooltip"
+                title=""
+                data-placement="bottom"
+                href="https://www.facebook.com/CreativeTim"
+                target="_blank"
+                data-original-title="Like us on Facebook"
+              >
+                <i class="fa fa-facebook-square"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                rel="tooltip"
+                title=""
+                data-placement="bottom"
+                href="https://www.instagram.com/CreativeTimOfficial"
+                target="_blank"
+                data-original-title="Follow us on Instagram"
+              >
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="page-header header-filter"
+      style="
+        background-image: url('../assets/img/bg7.jpg');
+        background-size: cover;
+        background-position: top center;
+      "
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 ml-auto mr-auto">
+            <div class="card card-login">
+              <form class="form" method="" action="">
+                <div class="card-header card-header-primary text-center">
+                  <h4 class="card-title">Login</h4>
+                  <div class="social-line">
+                    <a href="#pablo" class="btn btn-just-icon btn-link">
+                      <i class="fa fa-facebook-square"></i>
+                    </a>
+                    <a href="#pablo" class="btn btn-just-icon btn-link">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="#pablo" class="btn btn-just-icon btn-link">
+                      <i class="fa fa-google-plus"></i>
+                    </a>
+                  </div>
+                </div>
+                <p class="description text-center">Or Be Classical</p>
+                <div class="card-body">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">
+                        <i class="material-icons">face</i>
+                      </span>
+                    </div>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="First Name..."
+                    />
+                  </div>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">
+                        <i class="material-icons">mail</i>
+                      </span>
+                    </div>
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Email..."
+                    />
+                  </div>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">
+                        <i class="material-icons">lock_outline</i>
+                      </span>
+                    </div>
+                    <input
+                      type="password"
+                      class="form-control"
+                      placeholder="Password..."
+                    />
+                  </div>
+                </div>
+                <div class="footer text-center">
+                  <a
+                    href="#pablo"
+                    class="btn btn-primary btn-link btn-wd btn-lg"
+                    >Get Started</a
+                  >
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
+      <footer class="footer">
+        <div class="container">
+          <nav class="float-left">
+            <ul>
+              <li>
+                <a href="https://www.creative-tim.com/"> Creative Tim </a>
+              </li>
+              <li>
+                <a href="https://www.creative-tim.com/presentation">
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a href="https://www.creative-tim.com/blog"> Blog </a>
+              </li>
+              <li>
+                <a href="https://www.creative-tim.com/license"> Licenses </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
     </div>
   </div>
 </template>
 
 <script>
-import LoginCard from "./cards/LoginCard.vue";
-
 export default {
-  components: {
-    LoginCard,
-  },
   bodyClass: "login-page",
   data() {
     return {
