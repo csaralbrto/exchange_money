@@ -407,4 +407,12 @@ return [
     'extensions' => [
 
     ],
+       // Here you can specify additional assets that you would like to include in the master.blade
+    'additional_css' => [
+        'css/custom.css',
+    ],
+
+    'additional_js' => [
+        'js/custom.js',
+    ],
 ];

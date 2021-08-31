@@ -14,5 +14,7 @@ Route::group([
     $router->get('/', 'HomeController@index')->name('home');
     $router->resource('asesores', AdvisorsController::class);
     $router->resource('cuentas', AccountsController::class);
+    $router->resource('dayli_rate', PricingDayController::class);
+
 
 });
