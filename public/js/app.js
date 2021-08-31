@@ -2319,110 +2319,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: {},
   data: function data() {
@@ -2468,112 +2364,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -2964,6 +2754,222 @@ function debounce(func, wait, immediate) {
         self.checkForParallax(scrollVal);
       }
     });
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ProfileComponent.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ProfileComponent.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  mounted: function mounted() {
+    console.log("Component mounted.");
   }
 });
 
@@ -39750,187 +39756,6 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "wrapper" }, [
       _c(
-        "nav",
-        {
-          staticClass:
-            "\n      navbar navbar-transparent navbar-color-on-scroll\n      fixed-top\n      navbar-expand-lg\n    ",
-          attrs: { "color-on-scroll": "100", id: "sectionsNav" }
-        },
-        [
-          _c("div", { staticClass: "container" }, [
-            _c("div", { staticClass: "navbar-translate" }, [
-              _c(
-                "a",
-                {
-                  staticClass: "navbar-brand",
-                  attrs: {
-                    href:
-                      "https://demos.creative-tim.com/material-kit/index.html"
-                  }
-                },
-                [_vm._v("\n          Material Kit\n        ")]
-              ),
-              _vm._v(" "),
-              _c(
-                "button",
-                {
-                  staticClass: "navbar-toggler",
-                  attrs: {
-                    type: "button",
-                    "data-toggle": "collapse",
-                    "aria-expanded": "false",
-                    "aria-label": "Toggle navigation"
-                  }
-                },
-                [
-                  _c("span", { staticClass: "sr-only" }, [
-                    _vm._v("Toggle navigation")
-                  ]),
-                  _vm._v(" "),
-                  _c("span", { staticClass: "navbar-toggler-icon" }),
-                  _vm._v(" "),
-                  _c("span", { staticClass: "navbar-toggler-icon" }),
-                  _vm._v(" "),
-                  _c("span", { staticClass: "navbar-toggler-icon" })
-                ]
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "collapse navbar-collapse" }, [
-              _c("ul", { staticClass: "navbar-nav ml-auto" }, [
-                _c("li", { staticClass: "dropdown nav-item" }, [
-                  _c(
-                    "a",
-                    {
-                      staticClass: "dropdown-toggle nav-link",
-                      attrs: { href: "#", "data-toggle": "dropdown" }
-                    },
-                    [
-                      _c("i", { staticClass: "material-icons" }, [
-                        _vm._v("apps")
-                      ]),
-                      _vm._v(" Components\n            ")
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    { staticClass: "dropdown-menu dropdown-with-icons" },
-                    [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "dropdown-item",
-                          attrs: { href: "../index.html" }
-                        },
-                        [
-                          _c("i", { staticClass: "material-icons" }, [
-                            _vm._v("layers")
-                          ]),
-                          _vm._v(" All Components\n              ")
-                        ]
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "a",
-                        {
-                          staticClass: "dropdown-item",
-                          attrs: {
-                            href:
-                              "https://demos.creative-tim.com/material-kit/docs/2.0/getting-started/introduction.html"
-                          }
-                        },
-                        [
-                          _c("i", { staticClass: "material-icons" }, [
-                            _vm._v("content_paste")
-                          ]),
-                          _vm._v(" Documentation\n              ")
-                        ]
-                      )
-                    ]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "nav-item" }, [
-                  _c(
-                    "a",
-                    {
-                      staticClass: "nav-link",
-                      attrs: {
-                        href:
-                          "https://www.creative-tim.com/product/material-kit-pro",
-                        target: "_blank"
-                      }
-                    },
-                    [
-                      _c("i", { staticClass: "material-icons" }, [
-                        _vm._v("unarchive")
-                      ]),
-                      _vm._v(" Upgrade to PRO\n            ")
-                    ]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "nav-item" }, [
-                  _c(
-                    "a",
-                    {
-                      staticClass: "nav-link",
-                      attrs: {
-                        rel: "tooltip",
-                        title: "",
-                        "data-placement": "bottom",
-                        href: "https://twitter.com/CreativeTim",
-                        target: "_blank",
-                        "data-original-title": "Follow us on Twitter"
-                      }
-                    },
-                    [_c("i", { staticClass: "fa fa-twitter" })]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "nav-item" }, [
-                  _c(
-                    "a",
-                    {
-                      staticClass: "nav-link",
-                      attrs: {
-                        rel: "tooltip",
-                        title: "",
-                        "data-placement": "bottom",
-                        href: "https://www.facebook.com/CreativeTim",
-                        target: "_blank",
-                        "data-original-title": "Like us on Facebook"
-                      }
-                    },
-                    [_c("i", { staticClass: "fa fa-facebook-square" })]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "nav-item" }, [
-                  _c(
-                    "a",
-                    {
-                      staticClass: "nav-link",
-                      attrs: {
-                        rel: "tooltip",
-                        title: "",
-                        "data-placement": "bottom",
-                        href: "https://www.instagram.com/CreativeTimOfficial",
-                        target: "_blank",
-                        "data-original-title": "Follow us on Instagram"
-                      }
-                    },
-                    [_c("i", { staticClass: "fa fa-instagram" })]
-                  )
-                ])
-              ])
-            ])
-          ])
-        ]
-      ),
-      _vm._v(" "),
-      _c(
         "div",
         {
           staticClass: "page-header header-filter",
@@ -39943,9 +39768,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "container" }, [
             _c("div", { staticClass: "row" }, [
               _c("div", { staticClass: "col-md-6" }, [
-                _c("h1", { staticClass: "title" }, [
-                  _vm._v("Your Story Starts With Us.")
-                ]),
+                _c("h1", { staticClass: "title" }, [_vm._v("Money exchange")]),
                 _vm._v(" "),
                 _c("h4", [
                   _vm._v(
@@ -39953,22 +39776,7 @@ var staticRenderFns = [
                   )
                 ]),
                 _vm._v(" "),
-                _c("br"),
-                _vm._v(" "),
-                _c(
-                  "a",
-                  {
-                    staticClass: "btn btn-danger btn-raised btn-lg",
-                    attrs: {
-                      href: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-                      target: "_blank"
-                    }
-                  },
-                  [
-                    _c("i", { staticClass: "fa fa-play" }),
-                    _vm._v(" Watch video\n          ")
-                  ]
-                )
+                _c("br")
               ])
             ])
           ])
@@ -40432,192 +40240,11 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "wrapper" }, [
       _c(
-        "nav",
-        {
-          staticClass:
-            "\n      navbar navbar-transparent navbar-color-on-scroll\n      fixed-top\n      navbar-expand-lg\n    ",
-          attrs: { "color-on-scroll": "100", id: "sectionsNav" }
-        },
-        [
-          _c("div", { staticClass: "container" }, [
-            _c("div", { staticClass: "navbar-translate" }, [
-              _c(
-                "a",
-                {
-                  staticClass: "navbar-brand",
-                  attrs: {
-                    href:
-                      "https://demos.creative-tim.com/material-kit/index.html"
-                  }
-                },
-                [_vm._v("\n          Material Kit\n        ")]
-              ),
-              _vm._v(" "),
-              _c(
-                "button",
-                {
-                  staticClass: "navbar-toggler",
-                  attrs: {
-                    type: "button",
-                    "data-toggle": "collapse",
-                    "aria-expanded": "false",
-                    "aria-label": "Toggle navigation"
-                  }
-                },
-                [
-                  _c("span", { staticClass: "sr-only" }, [
-                    _vm._v("Toggle navigation")
-                  ]),
-                  _vm._v(" "),
-                  _c("span", { staticClass: "navbar-toggler-icon" }),
-                  _vm._v(" "),
-                  _c("span", { staticClass: "navbar-toggler-icon" }),
-                  _vm._v(" "),
-                  _c("span", { staticClass: "navbar-toggler-icon" })
-                ]
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "collapse navbar-collapse" }, [
-              _c("ul", { staticClass: "navbar-nav ml-auto" }, [
-                _c("li", { staticClass: "dropdown nav-item" }, [
-                  _c(
-                    "a",
-                    {
-                      staticClass: "dropdown-toggle nav-link",
-                      attrs: { href: "#", "data-toggle": "dropdown" }
-                    },
-                    [
-                      _c("i", { staticClass: "material-icons" }, [
-                        _vm._v("apps")
-                      ]),
-                      _vm._v(" Components\n            ")
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    { staticClass: "dropdown-menu dropdown-with-icons" },
-                    [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "dropdown-item",
-                          attrs: { href: "../index.html" }
-                        },
-                        [
-                          _c("i", { staticClass: "material-icons" }, [
-                            _vm._v("layers")
-                          ]),
-                          _vm._v(" All Components\n              ")
-                        ]
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "a",
-                        {
-                          staticClass: "dropdown-item",
-                          attrs: {
-                            href:
-                              "https://demos.creative-tim.com/material-kit/docs/2.0/getting-started/introduction.html"
-                          }
-                        },
-                        [
-                          _c("i", { staticClass: "material-icons" }, [
-                            _vm._v("content_paste")
-                          ]),
-                          _vm._v(" Documentation\n              ")
-                        ]
-                      )
-                    ]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "nav-item" }, [
-                  _c(
-                    "a",
-                    {
-                      staticClass: "nav-link",
-                      attrs: {
-                        href:
-                          "https://www.creative-tim.com/product/material-kit-pro",
-                        target: "_blank"
-                      }
-                    },
-                    [
-                      _c("i", { staticClass: "material-icons" }, [
-                        _vm._v("unarchive")
-                      ]),
-                      _vm._v(" Upgrade to PRO\n            ")
-                    ]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "nav-item" }, [
-                  _c(
-                    "a",
-                    {
-                      staticClass: "nav-link",
-                      attrs: {
-                        rel: "tooltip",
-                        title: "",
-                        "data-placement": "bottom",
-                        href: "https://twitter.com/CreativeTim",
-                        target: "_blank",
-                        "data-original-title": "Follow us on Twitter"
-                      }
-                    },
-                    [_c("i", { staticClass: "fa fa-twitter" })]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "nav-item" }, [
-                  _c(
-                    "a",
-                    {
-                      staticClass: "nav-link",
-                      attrs: {
-                        rel: "tooltip",
-                        title: "",
-                        "data-placement": "bottom",
-                        href: "https://www.facebook.com/CreativeTim",
-                        target: "_blank",
-                        "data-original-title": "Like us on Facebook"
-                      }
-                    },
-                    [_c("i", { staticClass: "fa fa-facebook-square" })]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "nav-item" }, [
-                  _c(
-                    "a",
-                    {
-                      staticClass: "nav-link",
-                      attrs: {
-                        rel: "tooltip",
-                        title: "",
-                        "data-placement": "bottom",
-                        href: "https://www.instagram.com/CreativeTimOfficial",
-                        target: "_blank",
-                        "data-original-title": "Follow us on Instagram"
-                      }
-                    },
-                    [_c("i", { staticClass: "fa fa-instagram" })]
-                  )
-                ])
-              ])
-            ])
-          ])
-        ]
-      ),
-      _vm._v(" "),
-      _c(
         "div",
         {
           staticClass: "page-header header-filter",
           staticStyle: {
-            "background-image": "url('../assets/img/bg7.jpg')",
+            "background-image": "url('../assets/img/profile_city.jpg')",
             "background-size": "cover",
             "background-position": "top center"
           }
@@ -40750,55 +40377,49 @@ var staticRenderFns = [
                 ])
               ])
             ])
-          ]),
-          _vm._v(" "),
-          _c("footer", { staticClass: "footer" }, [
-            _c("div", { staticClass: "container" }, [
-              _c("nav", { staticClass: "float-left" }, [
-                _c("ul", [
-                  _c("li", [
-                    _c(
-                      "a",
-                      { attrs: { href: "https://www.creative-tim.com/" } },
-                      [_vm._v(" Creative Tim ")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c(
-                      "a",
-                      {
-                        attrs: {
-                          href: "https://www.creative-tim.com/presentation"
-                        }
-                      },
-                      [_vm._v("\n                About Us\n              ")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c(
-                      "a",
-                      { attrs: { href: "https://www.creative-tim.com/blog" } },
-                      [_vm._v(" Blog ")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c(
-                      "a",
-                      {
-                        attrs: { href: "https://www.creative-tim.com/license" }
-                      },
-                      [_vm._v(" Licenses ")]
-                    )
-                  ])
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c("footer", { staticClass: "footer" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("nav", { staticClass: "float-left" }, [
+            _c("ul", [
+              _c("li", [
+                _c("a", { attrs: { href: "https://www.creative-tim.com/" } }, [
+                  _vm._v(" Creative Tim ")
                 ])
+              ]),
+              _vm._v(" "),
+              _c("li", [
+                _c(
+                  "a",
+                  {
+                    attrs: { href: "https://www.creative-tim.com/presentation" }
+                  },
+                  [_vm._v(" About Us ")]
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", [
+                _c(
+                  "a",
+                  { attrs: { href: "https://www.creative-tim.com/blog" } },
+                  [_vm._v(" Blog ")]
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", [
+                _c(
+                  "a",
+                  { attrs: { href: "https://www.creative-tim.com/license" } },
+                  [_vm._v(" Licenses ")]
+                )
               ])
             ])
           ])
-        ]
-      )
+        ])
+      ])
     ])
   }
 ]
@@ -40986,6 +40607,371 @@ var render = function() {
   return _c("div", { style: _vm.styles }, [_vm._t("default")], 2)
 }
 var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ProfileComponent.vue?vue&type=template&id=a8276c82&":
+/*!*******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ProfileComponent.vue?vue&type=template&id=a8276c82& ***!
+  \*******************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "profile-page sidebar-collapse" }, [
+      _c("div", {
+        staticClass: "page-header header-filter",
+        staticStyle: {
+          "background-image": "url('../../assets/img/profile_city.jpg')"
+        },
+        attrs: { "data-parallax": "true" }
+      }),
+      _vm._v(" "),
+      _c("div", { staticClass: "main main-raised" }, [
+        _c("div", { staticClass: "profile-content" }, [
+          _c("div", { staticClass: "container" }, [
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-md-6 ml-auto mr-auto" }, [
+                _c("div", { staticClass: "profile" }, [
+                  _c("div", { staticClass: "avatar" }, [
+                    _c("img", {
+                      staticClass: "img-raised rounded-circle img-fluid",
+                      attrs: {
+                        src: __webpack_require__(/*! ../../assets/img/faces/christian.jpg */ "./resources/assets/img/faces/christian.jpg"),
+                        alt: "Circle Image"
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "name" }, [
+                    _c("h3", { staticClass: "title" }, [
+                      _vm._v("Christian Louboutin")
+                    ]),
+                    _vm._v(" "),
+                    _c("h6", [_vm._v("Designer")]),
+                    _vm._v(" "),
+                    _c(
+                      "a",
+                      {
+                        staticClass: "btn btn-just-icon btn-link btn-dribbble",
+                        attrs: { href: "#pablo" }
+                      },
+                      [_c("i", { staticClass: "fa fa-dribbble" })]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "a",
+                      {
+                        staticClass: "btn btn-just-icon btn-link btn-twitter",
+                        attrs: { href: "#pablo" }
+                      },
+                      [_c("i", { staticClass: "fa fa-twitter" })]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "a",
+                      {
+                        staticClass: "btn btn-just-icon btn-link btn-pinterest",
+                        attrs: { href: "#pablo" }
+                      },
+                      [_c("i", { staticClass: "fa fa-pinterest" })]
+                    )
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "description text-center" }, [
+              _c("p", [
+                _vm._v(
+                  "\n            An artist of considerable range, Chet Faker — the name\n            taken by Melbourne-raised, Brooklyn-based Nick Murphy —\n            writes, performs and records all of his own music, giving it a\n            warm, intimate feel with a solid groove structure.\n          "
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-md-6 ml-auto mr-auto" }, [
+                _c("div", { staticClass: "profile-tabs" }, [
+                  _c(
+                    "ul",
+                    {
+                      staticClass:
+                        "nav nav-pills nav-pills-icons justify-content-center",
+                      attrs: { role: "tablist" }
+                    },
+                    [
+                      _c("li", { staticClass: "nav-item" }, [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "nav-link active",
+                            attrs: {
+                              href: "#studio",
+                              role: "tab",
+                              "data-toggle": "tab"
+                            }
+                          },
+                          [
+                            _c("i", { staticClass: "material-icons" }, [
+                              _vm._v("camera")
+                            ]),
+                            _vm._v(" Studio\n                  ")
+                          ]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { staticClass: "nav-item" }, [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "nav-link",
+                            attrs: {
+                              href: "#works",
+                              role: "tab",
+                              "data-toggle": "tab"
+                            }
+                          },
+                          [
+                            _c("i", { staticClass: "material-icons" }, [
+                              _vm._v("palette")
+                            ]),
+                            _vm._v(" Work\n                  ")
+                          ]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { staticClass: "nav-item" }, [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "nav-link",
+                            attrs: {
+                              href: "#favorite",
+                              role: "tab",
+                              "data-toggle": "tab"
+                            }
+                          },
+                          [
+                            _c("i", { staticClass: "material-icons" }, [
+                              _vm._v("favorite")
+                            ]),
+                            _vm._v(" Favorite\n                  ")
+                          ]
+                        )
+                      ])
+                    ]
+                  )
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "tab-content tab-space" }, [
+              _c(
+                "div",
+                {
+                  staticClass: "tab-pane active text-center gallery",
+                  attrs: { id: "studio" }
+                },
+                [
+                  _c("div", { staticClass: "row" }, [
+                    _c("div", { staticClass: "col-md-3 ml-auto" }, [
+                      _c("img", {
+                        staticClass: "rounded",
+                        attrs: {
+                          src: __webpack_require__(/*! ../../assets/img/examples/studio-1.jpg */ "./resources/assets/img/examples/studio-1.jpg")
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("img", {
+                        staticClass: "rounded",
+                        attrs: {
+                          src: __webpack_require__(/*! ../../assets/img/examples/studio-2.jpg */ "./resources/assets/img/examples/studio-2.jpg")
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-3 mr-auto" }, [
+                      _c("img", {
+                        staticClass: "rounded",
+                        attrs: {
+                          src: __webpack_require__(/*! ../../assets/img/examples/studio-5.jpg */ "./resources/assets/img/examples/studio-5.jpg")
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("img", {
+                        staticClass: "rounded",
+                        attrs: {
+                          src: __webpack_require__(/*! ../../assets/img/examples/studio-4.jpg */ "./resources/assets/img/examples/studio-4.jpg")
+                        }
+                      })
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "tab-pane text-center gallery",
+                  attrs: { id: "works" }
+                },
+                [
+                  _c("div", { staticClass: "row" }, [
+                    _c("div", { staticClass: "col-md-3 ml-auto" }, [
+                      _c("img", {
+                        staticClass: "rounded",
+                        attrs: {
+                          src: __webpack_require__(/*! ../../assets/img/examples/olu-eletu.jpg */ "./resources/assets/img/examples/olu-eletu.jpg")
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("img", {
+                        staticClass: "rounded",
+                        attrs: {
+                          src: __webpack_require__(/*! ../../assets/img/examples/clem-onojeghuo.jpg */ "./resources/assets/img/examples/clem-onojeghuo.jpg")
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("img", {
+                        staticClass: "rounded",
+                        attrs: {
+                          src: __webpack_require__(/*! ../../assets/img/examples/cynthia-del-rio.jpg */ "./resources/assets/img/examples/cynthia-del-rio.jpg")
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-3 mr-auto" }, [
+                      _c("img", {
+                        staticClass: "rounded",
+                        attrs: {
+                          src: __webpack_require__(/*! ../../assets/img/examples/mariya-georgieva.jpg */ "./resources/assets/img/examples/mariya-georgieva.jpg")
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("img", {
+                        staticClass: "rounded",
+                        attrs: {
+                          src: __webpack_require__(/*! ../../assets/img/examples/clem-onojegaw.jpg */ "./resources/assets/img/examples/clem-onojegaw.jpg")
+                        }
+                      })
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "tab-pane text-center gallery",
+                  attrs: { id: "favorite" }
+                },
+                [
+                  _c("div", { staticClass: "row" }, [
+                    _c("div", { staticClass: "col-md-3 ml-auto" }, [
+                      _c("img", {
+                        staticClass: "rounded",
+                        attrs: {
+                          src: __webpack_require__(/*! ../../assets/img/examples/mariya-georgieva.jpg */ "./resources/assets/img/examples/mariya-georgieva.jpg")
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("img", {
+                        staticClass: "rounded",
+                        attrs: {
+                          src: __webpack_require__(/*! ../../assets/img/examples/studio-3.jpg */ "./resources/assets/img/examples/studio-3.jpg")
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-3 mr-auto" }, [
+                      _c("img", {
+                        staticClass: "rounded",
+                        attrs: {
+                          src: __webpack_require__(/*! ../../assets/img/examples/clem-onojeghuo.jpg */ "./resources/assets/img/examples/clem-onojeghuo.jpg")
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("img", {
+                        staticClass: "rounded",
+                        attrs: {
+                          src: __webpack_require__(/*! ../../assets/img/examples/olu-eletu.jpg */ "./resources/assets/img/examples/olu-eletu.jpg")
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("img", {
+                        staticClass: "rounded",
+                        attrs: {
+                          src: __webpack_require__(/*! ../../assets/img/examples/studio-1.jpg */ "./resources/assets/img/examples/studio-1.jpg")
+                        }
+                      })
+                    ])
+                  ])
+                ]
+              )
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("footer", { staticClass: "footer footer-default" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("nav", { staticClass: "float-left" }, [
+            _c("ul", [
+              _c("li", [
+                _c("a", { attrs: { href: "https://www.creative-tim.com/" } }, [
+                  _vm._v(" Creative Tim ")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("li", [
+                _c(
+                  "a",
+                  {
+                    attrs: { href: "https://www.creative-tim.com/presentation" }
+                  },
+                  [_vm._v(" About Us ")]
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", [
+                _c(
+                  "a",
+                  { attrs: { href: "https://www.creative-tim.com/blog" } },
+                  [_vm._v(" Blog ")]
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", [
+                _c(
+                  "a",
+                  { attrs: { href: "https://www.creative-tim.com/license" } },
+                  [_vm._v(" Licenses ")]
+                )
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -53435,6 +53421,116 @@ module.exports = "/images/bg7.jpg?2be2ff95197d8494ba877a93fc5ed995";
 
 /***/ }),
 
+/***/ "./resources/assets/img/examples/clem-onojegaw.jpg":
+/*!*********************************************************!*\
+  !*** ./resources/assets/img/examples/clem-onojegaw.jpg ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/clem-onojegaw.jpg?8f92b88bee76fc4c9b6c77c72df9894b";
+
+/***/ }),
+
+/***/ "./resources/assets/img/examples/clem-onojeghuo.jpg":
+/*!**********************************************************!*\
+  !*** ./resources/assets/img/examples/clem-onojeghuo.jpg ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/clem-onojeghuo.jpg?23321ebf2db033bd157dfd5e1d16287f";
+
+/***/ }),
+
+/***/ "./resources/assets/img/examples/cynthia-del-rio.jpg":
+/*!***********************************************************!*\
+  !*** ./resources/assets/img/examples/cynthia-del-rio.jpg ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/cynthia-del-rio.jpg?f7c4b2dd639f422a55ae4eb867328e82";
+
+/***/ }),
+
+/***/ "./resources/assets/img/examples/mariya-georgieva.jpg":
+/*!************************************************************!*\
+  !*** ./resources/assets/img/examples/mariya-georgieva.jpg ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/mariya-georgieva.jpg?66c8b404a88a5d0bc8923314adefd2df";
+
+/***/ }),
+
+/***/ "./resources/assets/img/examples/olu-eletu.jpg":
+/*!*****************************************************!*\
+  !*** ./resources/assets/img/examples/olu-eletu.jpg ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/olu-eletu.jpg?15d2ebb30a9e54dbbeae0eea100e546b";
+
+/***/ }),
+
+/***/ "./resources/assets/img/examples/studio-1.jpg":
+/*!****************************************************!*\
+  !*** ./resources/assets/img/examples/studio-1.jpg ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/studio-1.jpg?bd90b5d1759ad4eef06381233ef83bcc";
+
+/***/ }),
+
+/***/ "./resources/assets/img/examples/studio-2.jpg":
+/*!****************************************************!*\
+  !*** ./resources/assets/img/examples/studio-2.jpg ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/studio-2.jpg?927b288cef97210deba1694f23f65682";
+
+/***/ }),
+
+/***/ "./resources/assets/img/examples/studio-3.jpg":
+/*!****************************************************!*\
+  !*** ./resources/assets/img/examples/studio-3.jpg ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/studio-3.jpg?3f2427639f534e0a63eda3c50e4622da";
+
+/***/ }),
+
+/***/ "./resources/assets/img/examples/studio-4.jpg":
+/*!****************************************************!*\
+  !*** ./resources/assets/img/examples/studio-4.jpg ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/studio-4.jpg?5bea741dbf2c3c971dedd2d836c5684d";
+
+/***/ }),
+
+/***/ "./resources/assets/img/examples/studio-5.jpg":
+/*!****************************************************!*\
+  !*** ./resources/assets/img/examples/studio-5.jpg ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/studio-5.jpg?5505c23bf97720d8ab82119c5b8288b7";
+
+/***/ }),
+
 /***/ "./resources/assets/img/faces/avatar.jpg":
 /*!***********************************************!*\
   !*** ./resources/assets/img/faces/avatar.jpg ***!
@@ -53475,7 +53571,7 @@ module.exports = "/images/kendall.jpg?5a0e395b3b76565583339619ca3110f4";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/profile_city.jpg?435c148e7c651c91b5eed09eb46cb112";
+module.exports = "/images/profile_city.jpg?d00ad035c978805e1219665e48be3665";
 
 /***/ }),
 
@@ -53547,6 +53643,7 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 Vue.component("example-component", __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
 Vue.component("login-component", __webpack_require__(/*! ./components/LoginComponent.vue */ "./resources/js/components/LoginComponent.vue")["default"]);
 Vue.component("home-component", __webpack_require__(/*! ./components/HomeComponent.vue */ "./resources/js/components/HomeComponent.vue")["default"]);
+Vue.component("profile-component", __webpack_require__(/*! ./components/ProfileComponent.vue */ "./resources/js/components/ProfileComponent.vue")["default"]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -54202,6 +54299,75 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/ProfileComponent.vue":
+/*!******************************************************!*\
+  !*** ./resources/js/components/ProfileComponent.vue ***!
+  \******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ProfileComponent_vue_vue_type_template_id_a8276c82___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ProfileComponent.vue?vue&type=template&id=a8276c82& */ "./resources/js/components/ProfileComponent.vue?vue&type=template&id=a8276c82&");
+/* harmony import */ var _ProfileComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ProfileComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/ProfileComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _ProfileComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ProfileComponent_vue_vue_type_template_id_a8276c82___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ProfileComponent_vue_vue_type_template_id_a8276c82___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/ProfileComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/ProfileComponent.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************!*\
+  !*** ./resources/js/components/ProfileComponent.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ProfileComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./ProfileComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ProfileComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ProfileComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/ProfileComponent.vue?vue&type=template&id=a8276c82&":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/components/ProfileComponent.vue?vue&type=template&id=a8276c82& ***!
+  \*************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ProfileComponent_vue_vue_type_template_id_a8276c82___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./ProfileComponent.vue?vue&type=template&id=a8276c82& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ProfileComponent.vue?vue&type=template&id=a8276c82&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ProfileComponent_vue_vue_type_template_id_a8276c82___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ProfileComponent_vue_vue_type_template_id_a8276c82___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/components/Slider.vue":
 /*!********************************************!*\
   !*** ./resources/js/components/Slider.vue ***!
@@ -54485,8 +54651,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /var/www/html/exchange_project/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /var/www/html/exchange_project/resources/css/app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\xampp\htdocs\casa_cambio\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\casa_cambio\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })
