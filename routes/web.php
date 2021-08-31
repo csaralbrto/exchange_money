@@ -19,6 +19,9 @@ Route::get('/', function () {
 Route::get('/login', function () {
     return view('login');
 });
+Route::get('/profile', function () {
+    return view('profile');
+});
 
 /* Routes from Users */
 Route::post('userSave', 'UserController@store')->name('userSave');
