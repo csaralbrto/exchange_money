@@ -80,7 +80,7 @@ class PricingDayController extends Controller
      * @param  \App\PricingDay  $pricingDay
      * @return \Illuminate\Http\Response
      */
-    public function findAccount(String $id)
+    public function findRate(String $id)
     {
 
         $pricing = PricingDay::find($id);

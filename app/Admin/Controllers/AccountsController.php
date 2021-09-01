@@ -68,7 +68,7 @@ class AccountsController extends AdminController
     public function create(Content $content)
     {
         return $content
-            ->header('Creación de Cuemta')
+            ->header('Creación de Cuenta')
             ->description('Los campos con (*) son obligatorios')
             ->body($this->form());
 

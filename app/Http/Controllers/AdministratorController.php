@@ -35,7 +35,16 @@ class AdministratorController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $data = $request->all();
+        
+        $admin = new Administrator;
+
+        $admin->name = $data['name'];
+        $admin->bank = $data['email'];
+        $admin->number = $data['phone'];
+        $admin->country = $data['logo'];
+
+        $admin->save();
     }
 
     /**
@@ -69,7 +78,13 @@ class AdministratorController extends Controller
      */
     public function update(Request $request, Administrator $administrator)
     {
-        //
+        $update_admin = Administrator::find($request->id)->update($request->all());
+
+        if($update_admin){
+            return response()->json(['message' => 'Actualizado'], 200);
+        }else{
+            return response()->json(['error' => 'Error al guardar'], 404);
+        }
     }
 
     /**
@@ -78,8 +93,16 @@ class AdministratorController extends Controller
      * @param  \App\Administrator  $administrator
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Administrator $administrator)
+    public function destroy(String $id)
     {
-        //
+        $admin = Administrator::findOrFail($id);
+
+        $admin->delete();
+
+        if($admin->delete()){
+            return response()->json(['message' => 'Eliminado'], 200);
+        }else{
+            return response()->json(['error' => 'Error al eliminar'], 404);
+        }
     }
 }
