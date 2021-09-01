@@ -34,3 +34,6 @@ Route::post('accountSave', 'AccountsController@store')->name('accountSave');
 Route::middleware('auth')->get('allAccountsUsers', 'AccountsController@show')->name('allAccountsUsers');
 Route::middleware('auth')->get('getAccount', 'AccountsController@findAccount')->name('getAccount');
 /* End Routes from Accounts */
+
+/* Login */
+Route::post('/login', 'Auth\LoginController@login')->name('login');

@@ -1,0 +1,6 @@
+.login-page,
+.register-page {
+    background-image: url(../../../../../assets/img/profile_city.jpg) !important;
+    background-size: cover;
+    background-position: center top;
+}
