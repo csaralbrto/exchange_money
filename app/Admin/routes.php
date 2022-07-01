@@ -16,6 +16,4 @@ Route::group([
     $router->resource('cuentas', AccountsController::class);
     $router->resource('dayli_rate', PricingDayController::class);
     $router->resource('casa_cambio', AdministratorController::class);
-
-
 });
